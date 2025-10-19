@@ -1,0 +1,192 @@
+[
+    {
+        "url": "https://www.bct.gov.tn",
+        "news": [],
+        "opportunities": [
+            {
+                "title": "Dedicated Central Bank Fintech Initiative ('BCT FINTECH')",
+                "content": "The BCT website prominently features a banner and link to a dedicated 'BCT FINTECH' platform (fintech.bct.gov.tn).",
+                "relevance": "This is a highly positive signal for your interest in fintech. It indicates institutional recognition and a structured approach to the sector, potentially offering regulatory sandboxes, clearer guidelines, and a direct point of contact for innovative financial startups.",
+                "score": 1
+            },
+            {
+                "title": "Availability of External Financing Lines",
+                "content": "The BCT publicizes the availability of 'external financing lines for Tunisian companies,' which are managed by the bank.",
+                "relevance": "This presents a potential source of non-dilutive or follow-on funding for the startups you invest in, which can enhance their growth potential and financial runway.",
+                "score": 1
+            }
+        ],
+        "threats": []
+    },
+    {
+        "url": "http://www.cmf.tn",
+        "news": [
+            {
+                "title": "M&A Activity in the Fintech Sector",
+                "content": "The CMF has issued a communiqu\u00e9 authorizing 'Best Lease' to acquire a block of securities. This points to ongoing consolidation and investment activity within the leasing and fintech space.",
+                "relevance": "Directly relevant to the user's interest in fintech, showing that the sector is dynamic with significant transactions occurring.",
+                "score": 1
+            }
+        ],
+        "opportunities": [
+            {
+                "title": "Gain Market Intelligence from Bond Issues in the Fintech Sector",
+                "content": "Several financial institutions, including 'Tunisie Leasing et Factoring' and 'UBCI', are issuing subordinated bonds. These prospectuses contain detailed financial information.",
+                "relevance": "While bonds are not the user's primary focus, analyzing the financial health and capital needs of these major fintech players can reveal market gaps and opportunities that agile startups could exploit.",
+                "actionable_insight": "Review the prospectuses of recent bond issues by financial institutions to analyze market trends and identify underserved needs that a fintech startup could address.",
+                "score": 2
+            }
+        ],
+        "threats": []
+    },
+    {
+        "url": "https://www.ilboursa.com",
+        "news": [
+            {
+                "title": "Launch of a New Mobile Payment Solution in Tunisia",
+                "summary": "The microfinance institution Enda has publicly launched its mobile payment solution, 'Enda Tao'. This development signals ongoing innovation and growth within the Tunisian fintech sector.",
+                "relevance_to_user": "Directly aligns with the user's interest in 'fintech'. It confirms that the Tunisian market is active in this space, providing context for potential investments.",
+                "source": "A LA UNE",
+                "score": 1
+            },
+            {
+                "title": "UBCI Bank Raises 60 Million Dinars",
+                "summary": "The bank UBCI successfully raised 60 million TND from the bond market in a single day.",
+                "relevance_to_user": "Indicates significant capital movement and investor confidence within the Tunisian financial sector, which is the broader environment for the user's 'fintech' interests.",
+                "source": "A LA UNE",
+                "score": 1
+            },
+            {
+                "title": "Sustainable Development Partnership in Kerkennah",
+                "summary": "UN-Habitat, BTE bank, and a local foundation have signed an agreement for sustainable development projects in Kerkennah.",
+                "relevance_to_user": "Connects to the user's interest in 'real estate' and ownership of 'land'. This signals a trend towards sustainable and resilient construction, which could influence future property values and development opportunities.",
+                "source": "COMMUNIQUES",
+                "score": 1
+            }
+        ],
+        "opportunities": [
+            {
+                "title": "Investment Lead in Fintech",
+                "summary": "The launch of the 'Enda Tao' mobile payment solution highlights a specific company and sub-sector (mobile payments) that is active and growing. This could be a direct or indirect investment opportunity.",
+                "relevance_to_user": "Presents a concrete development in the user's specific area of interest ('fintech'), offering a potential target for investment or a case study for evaluating the market.",
+                "source": "A LA UNE",
+                "score": 1
+            }
+        ],
+        "threats": [
+            {
+                "title": "Potential Downturn in Real Estate Sector",
+                "summary": "SOMOCER, a major company in the ceramics and building materials industry, reported a historic loss of nearly 29 million dinars.",
+                "relevance_to_user": "This is a negative signal for the construction and real estate market. As an owner of houses and land, this could indicate a potential decrease in property values or a challenging environment for new real estate developments.",
+                "source": "BOURSE",
+                "score": 1
+            }
+        ]
+    },
+    {
+        "url": "https://www.leconomistemaghrebin.com",
+        "news": [
+            {
+                "title": "Global AI Impact on Labor Market",
+                "summary": "A report indicates that Artificial Intelligence has already transformed 44 different professions, highlighting the rapid and widespread impact of AI on the world of work.",
+                "relevance": "Provides crucial context for your 'AI' investment strategy, emphasizing the vast applicability and disruptive potential of AI technologies across various industries.",
+                "score": 1
+            }
+        ],
+        "opportunities": [
+            {
+                "title": "High-Profile AI and Investment Summits in Tunisia",
+                "summary": "Several upcoming events signal a strong push in the tech and investment sectors. These include the 'Ooredoo AI Summit' aimed at accelerating the digital economy, the 'Smart Invest Summit 2026', and a forum on 'Tunisia's strategic options in the age of AI'.",
+                "relevance": "These events are prime networking opportunities to discover promising 'AI' startups, meet founders, and connect with other investors. Tunisia's positioning as an African and Arab voice at international AI conferences further validates the growing ecosystem.",
+                "score": 1
+            }
+        ],
+        "threats": [
+            {
+                "title": "Severe Environmental and Health Crisis in Gabes",
+                "summary": "Multiple articles highlight a major environmental crisis in Gabes, citing technical failures at the Tunisian Chemical Group (GCT) and prompting presidential promises for a resolution.",
+                "relevance": "This is a critical threat to your real estate holdings in Gabes. A persistent environmental crisis can lead to a sharp decline in property values, pose long-term health risks, and deter future economic development in the area, jeopardizing the value of your 'houses' and 'land'.",
+                "score": 1
+            }
+        ]
+    },
+    {
+        "url": "https://www.forbes.com/ai",
+        "news": [
+            {
+                "title": "AI Transforming the Finance Sector",
+                "summary": "An article highlights how AI is giving companies an edge in finance through personalization, optimizing investments, and improving compliance. This confirms the strong synergy between your interests in AI and fintech.",
+                "relevance": "Directly aligns with your 'fintech' and 'AI' interests, indicating a robust market for innovation.",
+                "source": "How Companies Can Get An Edge In Finance With AI",
+                "score": 2
+            },
+            {
+                "title": "Major VC and Healthcare Partnership in AI Tech",
+                "summary": "Prominent venture capital firm Khosla Ventures is partnering with the Cleveland Clinic to advance healthcare technology. This signals strong institutional confidence and capital flow into the AI health-tech space.",
+                "relevance": "Validates the investment potential in AI applications outside of pure tech and finance, showing market maturity.",
+                "source": "Khosla Ventures And Cleveland Clinic Partner On Healthcare Tech",
+                "score": 1
+            },
+            {
+                "title": "Emergence of 'Agentic AI' as a Key Trend",
+                "summary": "A featured article discusses the rise of 'Agentic AI' at major semiconductor firms. This identifies a specific, cutting-edge subfield of AI that is gaining significant traction.",
+                "relevance": "Keeps you informed on the next wave of AI technology, which could spawn new categories of startups.",
+                "source": "Nancy Avila On The Rise Of Agentic AI At Analog Devices",
+                "score": 1
+            },
+            {
+                "title": "AI Application in a New Market: Elder Care Companionship",
+                "summary": "A new trend is emerging where startups are developing AI-powered bots to provide companionship for lonely seniors, addressing a significant demographic need.",
+                "relevance": "Highlights a novel, socially-impactful application for AI, representing a potentially untapped market for investment.",
+                "source": "Lonely Seniors Are Turning To AI Bots For Companionship",
+                "score": 1
+            }
+        ],
+        "opportunities": [
+            {
+                "title": "Specific AI Startups Announce Seed Funding",
+                "summary": "An article explicitly names two startups that have recently raised seed rounds: 'Epiminds' ($6.6M for AI marketing agents) and 'Flint' ($5M to automate website creation).",
+                "relevance": "Provides direct leads on early-stage companies in the AI space that are gaining traction and market validation through funding. These are prime targets for tracking and potential future investment rounds.",
+                "source": "Samsung Galaxy XR Launch, Epiminds, Flint AI Raise Seeds, Anduril Reveals EagleEye",
+                "score": 1
+            },
+            {
+                "title": "Well-Funded Stealth Startups in Humanoid Robotics",
+                "summary": "An article reports on stealth-mode AI startups building humanoid robots, with some having raised over $100 million each.",
+                "relevance": "This points to a capital-intensive but potentially revolutionary sector that fits your high-risk investment profile. Getting in early on the right company could yield significant returns.",
+                "source": "These Well-Funded AI Startups Are Building Humanoid Robots In Stealth",
+                "score": 1
+            },
+            {
+                "title": "New $440 Million Venture Fund for Health Tech",
+                "summary": "A new fund, Town Hall Ventures, has raised $440 million to invest in healthcare startups.",
+                "relevance": "Presents an opportunity to track the investments of a new, well-capitalized fund to discover promising startups. For an investor of your profile, co-investing or becoming a limited partner (LP) could also be an option.",
+                "source": "Medicare Administrator Turned Health Venture Capitalist Raises $440 Million For New Fund",
+                "score": 1
+            },
+            {
+                "title": "AI-Powered Healthcare Logistics Startup Exits Stealth",
+                "summary": "A startup named 'Sage Care' is mentioned as coming out of stealth with $20 million in funding to build an 'air traffic control system for healthcare.'",
+                "relevance": "Highlights a specific, well-funded company solving a complex problem in a large market. This is a company to watch for future funding rounds or as a signal of a valuable investment niche.",
+                "source": "How Two Ride-Share Guys And An ER Doc Are Building An Air Traffic Control System For Healthcare",
+                "score": 1
+            }
+        ],
+        "threats": [
+            {
+                "title": "Increasing Regulatory Scrutiny on AI",
+                "summary": "Multiple articles discuss the need for AI regulation, citing New York's 'RAISE Act' and the conceptual 'Digital Driver's License for AI'.",
+                "relevance": "Regulatory uncertainty and compliance costs are significant threats to AI startups. New laws could slow innovation, increase operational expenses, and create new liabilities for your portfolio companies.",
+                "source": "Prudent Guardrails For The AI Race; Do We Need A Digital Driver\u2019s License For AI Access?",
+                "score": 1
+            },
+            {
+                "title": "Reputational and Ethical Risks of AI",
+                "summary": "A viral 'AI Homeless Man Prank' has drawn condemnation from police and advocacy groups, highlighting the potential for negative public perception and misuse of AI technology.",
+                "relevance": "Ethical missteps or public backlash against AI applications can create significant reputational damage for companies in the space, potentially leading to user distrust and stricter regulations.",
+                "source": "\u2018AI Homeless Man Prank\u2019 Draws Police Warnings And Claims It Fuels Stigma",
+                "score": 1
+            }
+        ]
+    }
+]
