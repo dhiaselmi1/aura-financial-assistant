@@ -1,0 +1,816 @@
+{
+  "user": {
+    "id": "user_001",
+    "name": "Mohamed Hassan",
+    "email": "mohamed.hassan@aura.ai",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Mohamed",
+    "riskScore": 72,
+    "riskProfile": "Moderate",
+    "joinDate": "2024-01-15",
+    "verified": true,
+    "twoFactorEnabled": true
+  },
+  
+  "portfolio": {
+    "totalValue": 67420,
+    "totalChange": 8.4,
+    "totalChangeAmount": 5230,
+    "lastUpdated": "2025-01-19T03:12:00Z",
+    "history": [
+      { "month": "Jan", "value": 45000 },
+      { "month": "Feb", "value": 52000 },
+      { "month": "Mar", "value": 48000 },
+      { "month": "Apr", "value": 61000 },
+      { "month": "May", "value": 58000 },
+      { "month": "Jun", "value": 67420 }
+    ]
+  },
+
+  "assetAllocation": [
+    { 
+      "name": "Stocks", 
+      "value": 28500, 
+      "percentage": 42.3, 
+      "color": "#3b82f6",
+      "change": 5.2
+    },
+    { 
+      "name": "Real Estate", 
+      "value": 18200, 
+      "percentage": 27.0, 
+      "color": "#8b5cf6",
+      "change": 2.1
+    },
+    { 
+      "name": "Liquid Cash", 
+      "value": 9800, 
+      "percentage": 14.5, 
+      "color": "#22c55e",
+      "change": 0.5
+    },
+    { 
+      "name": "Gold & Precious Metals", 
+      "value": 6500, 
+      "percentage": 9.6, 
+      "color": "#f59e0b",
+      "change": 3.8
+    },
+    { 
+      "name": "Crypto", 
+      "value": 4420, 
+      "percentage": 6.6, 
+      "color": "#ec4899",
+      "change": -2.3
+    }
+  ],
+
+  "stockPortfolio": [
+    {
+      "id": "stock_001",
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "value": 8500,
+      "shares": 47,
+      "avgPrice": 180.85,
+      "currentPrice": 185.20,
+      "change": 2.4,
+      "changeAmount": 204.45,
+      "sector": "Technology",
+      "purchaseDate": "2024-03-15"
+    },
+    {
+      "id": "stock_002",
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "value": 7200,
+      "shares": 19,
+      "avgPrice": 375.00,
+      "currentPrice": 382.50,
+      "change": 1.8,
+      "changeAmount": 142.50,
+      "sector": "Technology",
+      "purchaseDate": "2024-02-10"
+    },
+    {
+      "id": "stock_003",
+      "company": "Tesla Inc.",
+      "ticker": "TSLA",
+      "value": 5800,
+      "shares": 24,
+      "avgPrice": 245.00,
+      "currentPrice": 241.67,
+      "change": -1.2,
+      "changeAmount": -79.92,
+      "sector": "Automotive",
+      "purchaseDate": "2024-04-20"
+    },
+    {
+      "id": "stock_004",
+      "company": "Amazon.com Inc.",
+      "ticker": "AMZN",
+      "value": 4200,
+      "shares": 28,
+      "avgPrice": 145.00,
+      "currentPrice": 150.00,
+      "change": 3.1,
+      "changeAmount": 140.00,
+      "sector": "E-commerce",
+      "purchaseDate": "2024-01-25"
+    },
+    {
+      "id": "stock_005",
+      "company": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "value": 2800,
+      "shares": 20,
+      "avgPrice": 138.00,
+      "currentPrice": 140.00,
+      "change": 0.9,
+      "changeAmount": 40.00,
+      "sector": "Technology",
+      "purchaseDate": "2024-05-05"
+    }
+  ],
+
+  "physicalAssets": [
+    {
+      "id": "asset_001",
+      "type": "Primary Residence",
+      "location": "San Francisco, CA",
+      "address": "1234 Market Street, San Francisco, CA 94102",
+      "value": 850000,
+      "purchasePrice": 720000,
+      "purchaseDate": "2022-06-15",
+      "appreciation": 18.1,
+      "size": "2,400 sq ft",
+      "bedrooms": 3,
+      "bathrooms": 2.5
+    },
+    {
+      "id": "asset_002",
+      "type": "Rental Property",
+      "location": "Austin, TX",
+      "address": "567 Congress Ave, Austin, TX 78701",
+      "value": 420000,
+      "purchasePrice": 380000,
+      "purchaseDate": "2023-03-10",
+      "appreciation": 10.5,
+      "monthlyRent": 3200,
+      "occupancyRate": 100,
+      "size": "1,800 sq ft"
+    },
+    {
+      "id": "asset_003",
+      "type": "Land",
+      "location": "Colorado",
+      "address": "Mountain View Road, Aspen, CO 81611",
+      "value": 180000,
+      "purchasePrice": 150000,
+      "purchaseDate": "2023-08-20",
+      "appreciation": 20.0,
+      "acres": 5.2,
+      "zoning": "Residential"
+    },
+    {
+      "id": "asset_004",
+      "type": "Gold Bars",
+      "location": "Secure Vault - Chase Bank",
+      "value": 45000,
+      "quantity": 0.7,
+      "unit": "kg",
+      "purity": "99.99%",
+      "purchasePrice": 42000,
+      "purchaseDate": "2024-01-10"
+    },
+    {
+      "id": "asset_005",
+      "type": "Luxury Vehicle",
+      "location": "Personal Garage",
+      "make": "Tesla",
+      "model": "Model S Plaid",
+      "year": 2024,
+      "value": 85000,
+      "purchasePrice": 135000,
+      "purchaseDate": "2024-02-01",
+      "mileage": 3500,
+      "condition": "Excellent"
+    }
+  ],
+
+  "liquidAssets": [
+    {
+      "id": "liquid_001",
+      "type": "Savings Account",
+      "bank": "Chase Bank",
+      "accountNumber": "****4521",
+      "value": 45000,
+      "apy": 4.5,
+      "openDate": "2023-01-15",
+      "interestEarned": 2025
+    },
+    {
+      "id": "liquid_002",
+      "type": "Money Market",
+      "bank": "Vanguard",
+      "accountNumber": "****7832",
+      "value": 28000,
+      "apy": 5.2,
+      "openDate": "2023-06-20",
+      "interestEarned": 1456
+    },
+    {
+      "id": "liquid_003",
+      "type": "Emergency Fund",
+      "bank": "Ally Bank",
+      "accountNumber": "****9104",
+      "value": 15000,
+      "apy": 4.8,
+      "openDate": "2022-11-10",
+      "interestEarned": 720
+    }
+  ],
+
+  "cryptoHoldings": [
+    {
+      "id": "crypto_001",
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "amount": 0.195,
+      "currentPrice": 43250,
+      "value": 8434,
+      "avgPurchasePrice": 38500,
+      "change": 2.4,
+      "change24h": 1.8,
+      "purchaseDate": "2023-09-15"
+    },
+    {
+      "id": "crypto_002",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "amount": 2.8,
+      "currentPrice": 2280,
+      "value": 6384,
+      "avgPurchasePrice": 2100,
+      "change": 3.2,
+      "change24h": 2.1,
+      "purchaseDate": "2023-10-20"
+    },
+    {
+      "id": "crypto_003",
+      "name": "Solana",
+      "symbol": "SOL",
+      "amount": 45,
+      "currentPrice": 98.5,
+      "value": 4432.5,
+      "avgPurchasePrice": 105,
+      "change": -1.1,
+      "change24h": -0.8,
+      "purchaseDate": "2024-01-05"
+    }
+  ],
+
+  "financialNews": [
+    {
+      "id": "news_001",
+      "type": "regulation",
+      "source": "SEC",
+      "title": "SEC Proposes New Crypto Regulation Framework",
+      "summary": "New regulations require crypto exchanges to register as securities dealers by Q2 2025.",
+      "content": "The Securities and Exchange Commission has proposed comprehensive regulations for cryptocurrency exchanges...",
+      "impact": "High",
+      "time": "2 hours ago",
+      "timestamp": "2025-01-19T01:12:00Z",
+      "trending": true,
+      "url": "https://sec.gov/news/crypto-regulations-2025",
+      "tags": ["crypto", "regulation", "SEC"]
+    },
+    {
+      "id": "news_002",
+      "type": "market",
+      "source": "Bloomberg",
+      "title": "Federal Reserve Signals Rate Cut in March",
+      "summary": "Fed officials hint at potential 0.25% rate reduction following inflation data.",
+      "content": "Federal Reserve officials have indicated a possible interest rate cut in the upcoming March meeting...",
+      "impact": "High",
+      "time": "4 hours ago",
+      "timestamp": "2025-01-18T23:12:00Z",
+      "trending": true,
+      "url": "https://bloomberg.com/fed-rate-cut-march",
+      "tags": ["fed", "interest rates", "economy"]
+    },
+    {
+      "id": "news_003",
+      "type": "social",
+      "source": "Twitter",
+      "title": "Tech Stocks Rally on AI Breakthrough",
+      "summary": "#AIStocks trending as major tech companies announce new AI partnerships.",
+      "content": "Major technology stocks are experiencing significant gains following announcements of breakthrough AI collaborations...",
+      "impact": "Medium",
+      "time": "6 hours ago",
+      "timestamp": "2025-01-18T21:12:00Z",
+      "trending": true,
+      "url": "https://twitter.com/trending/AIStocks",
+      "tags": ["AI", "tech stocks", "partnerships"]
+    },
+    {
+      "id": "news_004",
+      "type": "regulation",
+      "source": "IRS",
+      "title": "New Tax Rules for Digital Assets 2025",
+      "summary": "IRS updates reporting requirements for cryptocurrency transactions above $10,000.",
+      "content": "The Internal Revenue Service has announced updated tax reporting requirements for digital asset transactions...",
+      "impact": "Medium",
+      "time": "8 hours ago",
+      "timestamp": "2025-01-18T19:12:00Z",
+      "trending": false,
+      "url": "https://irs.gov/digital-assets-2025",
+      "tags": ["tax", "crypto", "IRS"]
+    },
+    {
+      "id": "news_005",
+      "type": "market",
+      "source": "CNBC",
+      "title": "Real Estate Market Shows Signs of Recovery",
+      "summary": "Housing prices stabilize in major metro areas after 18-month decline.",
+      "content": "The real estate market is showing positive signs of recovery with stabilizing prices across major metropolitan areas...",
+      "impact": "Low",
+      "time": "12 hours ago",
+      "timestamp": "2025-01-18T15:12:00Z",
+      "trending": false,
+      "url": "https://cnbc.com/real-estate-recovery",
+      "tags": ["real estate", "housing", "market"]
+    },
+    {
+      "id": "news_006",
+      "type": "social",
+      "source": "Reddit",
+      "title": "ESG Investing Gains Momentum Among Millennials",
+      "summary": "r/investing discusses shift toward sustainable investment strategies.",
+      "content": "Environmental, Social, and Governance (ESG) investing is gaining significant traction among millennial investors...",
+      "impact": "Low",
+      "time": "1 day ago",
+      "timestamp": "2025-01-18T03:12:00Z",
+      "trending": false,
+      "url": "https://reddit.com/r/investing/esg-momentum",
+      "tags": ["ESG", "sustainable", "millennials"]
+    }
+  ],
+
+  "startupOpportunities": [
+    {
+      "id": "startup_001",
+      "name": "NeuralTech AI",
+      "sector": "Artificial Intelligence",
+      "stage": "Series A",
+      "seeking": 2500000,
+      "valuation": 15000000,
+      "equity": 15,
+      "minInvestment": 50000,
+      "description": "Revolutionary AI platform for enterprise automation and decision-making.",
+      "founded": "2022-03-15",
+      "employees": 28,
+      "location": "San Francisco, CA",
+      "metrics": {
+        "revenue": "$1.2M ARR",
+        "growth": "+320% YoY",
+        "customers": 45,
+        "retention": "95%"
+      },
+      "team": "Ex-Google, Stanford PhDs",
+      "founders": [
+        {
+          "name": "Dr. Sarah Chen",
+          "role": "CEO",
+          "background": "Former Google AI Lead, Stanford PhD"
+        },
+        {
+          "name": "Michael Rodriguez",
+          "role": "CTO",
+          "background": "Ex-OpenAI Engineer, MIT"
+        }
+      ],
+      "highlight": true,
+      "investorsCount": 12,
+      "leadInvestor": "Sequoia Capital"
+    },
+    {
+      "id": "startup_002",
+      "name": "GreenEnergy Solutions",
+      "sector": "Clean Energy",
+      "stage": "Seed",
+      "seeking": 800000,
+      "valuation": 4000000,
+      "equity": 20,
+      "minInvestment": 25000,
+      "description": "Solar panel technology with 40% higher efficiency than market standard.",
+      "founded": "2023-06-01",
+      "employees": 12,
+      "location": "Austin, TX",
+      "metrics": {
+        "revenue": "Pre-revenue",
+        "growth": "Pilot phase",
+        "customers": 12,
+        "retention": "N/A"
+      },
+      "team": "MIT Engineers, Industry veterans",
+      "founders": [
+        {
+          "name": "James Thompson",
+          "role": "CEO",
+          "background": "MIT Energy Systems, 15 years solar industry"
+        }
+      ],
+      "highlight": false,
+      "investorsCount": 5,
+      "leadInvestor": "Y Combinator"
+    },
+    {
+      "id": "startup_003",
+      "name": "HealthChain",
+      "sector": "HealthTech",
+      "stage": "Series B",
+      "seeking": 5000000,
+      "valuation": 35000000,
+      "equity": 12,
+      "minInvestment": 100000,
+      "description": "Blockchain-based medical records platform serving 200+ hospitals.",
+      "founded": "2021-01-10",
+      "employees": 65,
+      "location": "Boston, MA",
+      "metrics": {
+        "revenue": "$4.5M ARR",
+        "growth": "+180% YoY",
+        "customers": 215,
+        "retention": "98%"
+      },
+      "team": "Healthcare + Blockchain experts",
+      "founders": [
+        {
+          "name": "Dr. Emily Watson",
+          "role": "CEO",
+          "background": "Johns Hopkins MD, Healthcare IT"
+        },
+        {
+          "name": "David Kim",
+          "role": "CTO",
+          "background": "Blockchain architect, ex-Coinbase"
+        }
+      ],
+      "highlight": true,
+      "investorsCount": 18,
+      "leadInvestor": "Andreessen Horowitz"
+    }
+  ],
+
+  "acquisitionOpportunities": [
+    {
+      "id": "acquisition_001",
+      "name": "TechFlow Industries",
+      "industry": "SaaS",
+      "price": 12500000,
+      "revenue": 8200000,
+      "ebitda": 3100000,
+      "employees": 45,
+      "founded": "2019-05-15",
+      "location": "Seattle, WA",
+      "description": "Established B2B software company with 500+ enterprise clients.",
+      "highlights": [
+        "Recurring revenue model",
+        "Strong customer retention (94%)",
+        "Scalable infrastructure"
+      ],
+      "multiple": "4.0x Revenue",
+      "customers": 520,
+      "churnRate": "6%",
+      "netMargin": "37.8%",
+      "featured": true,
+      "reasonForSale": "Founder retirement",
+      "assets": [
+        "Proprietary software platform",
+        "Customer contracts (avg 3-year)",
+        "Brand and IP"
+      ]
+    },
+    {
+      "id": "acquisition_002",
+      "name": "Urban Real Estate Portfolio",
+      "industry": "Real Estate",
+      "price": 28000000,
+      "revenue": 4200000,
+      "ebitda": 2800000,
+      "employees": 12,
+      "founded": "2015-08-20",
+      "location": "New York, NY",
+      "description": "15 commercial properties in prime downtown locations.",
+      "highlights": [
+        "100% occupancy rate",
+        "Long-term leases (avg 7 years)",
+        "Appreciation potential"
+      ],
+      "multiple": "10x EBITDA",
+      "properties": 15,
+      "totalSqFt": 125000,
+      "avgLeaseLength": "7 years",
+      "featured": true,
+      "reasonForSale": "Portfolio consolidation",
+      "assets": [
+        "15 commercial properties",
+        "Long-term tenant contracts",
+        "Property management systems"
+      ]
+    },
+    {
+      "id": "acquisition_003",
+      "name": "Artisan Coffee Chain",
+      "industry": "F&B",
+      "price": 3500000,
+      "revenue": 2100000,
+      "ebitda": 650000,
+      "employees": 28,
+      "founded": "2018-03-10",
+      "location": "Portland, OR",
+      "description": "8 locations across major cities with loyal customer base.",
+      "highlights": [
+        "Established brand",
+        "Prime locations",
+        "Growth potential"
+      ],
+      "multiple": "5.4x EBITDA",
+      "locations": 8,
+      "avgDailySales": 7000,
+      "customerRetention": "78%",
+      "featured": false,
+      "reasonForSale": "Expansion capital needed",
+      "assets": [
+        "8 retail locations",
+        "Brand and recipes",
+        "Equipment and inventory"
+      ]
+    }
+  ],
+
+  "marketOpportunities": [
+    {
+      "id": "opp_001",
+      "title": "Tech Sector Growth",
+      "category": "Stocks",
+      "potential": "+15.2%",
+      "risk": "Medium",
+      "description": "AI-driven companies showing strong Q2 performance",
+      "timeframe": "3-6 months",
+      "confidence": 78,
+      "recommendedAction": "Buy",
+      "relatedAssets": ["AAPL", "MSFT", "GOOGL"]
+    },
+    {
+      "id": "opp_002",
+      "title": "Emerging Markets Bond",
+      "category": "Bonds",
+      "potential": "+8.5%",
+      "risk": "Low",
+      "description": "Stable returns from diversified EM portfolio",
+      "timeframe": "12 months",
+      "confidence": 85,
+      "recommendedAction": "Consider",
+      "relatedAssets": ["EM Bonds ETF"]
+    },
+    {
+      "id": "opp_003",
+      "title": "Renewable Energy Surge",
+      "category": "Stocks",
+      "potential": "+22.3%",
+      "risk": "High",
+      "description": "Government incentives driving clean energy adoption",
+      "timeframe": "6-12 months",
+      "confidence": 65,
+      "recommendedAction": "Research",
+      "relatedAssets": ["Solar ETF", "Wind Energy"]
+    }
+  ],
+
+  "recentActivity": [
+    {
+      "id": "activity_001",
+      "type": "buy",
+      "action": "Bought",
+      "asset": "AAPL",
+      "amount": "$2,450",
+      "shares": 13,
+      "price": 188.46,
+      "time": "2 hours ago",
+      "timestamp": "2025-01-19T01:12:00Z",
+      "status": "completed"
+    },
+    {
+      "id": "activity_002",
+      "type": "sell",
+      "action": "Sold",
+      "asset": "TSLA",
+      "amount": "$1,820",
+      "shares": 8,
+      "price": 227.50,
+      "time": "5 hours ago",
+      "timestamp": "2025-01-18T22:12:00Z",
+      "status": "completed"
+    },
+    {
+      "id": "activity_003",
+      "type": "alert",
+      "action": "Risk Alert",
+      "asset": "Portfolio",
+      "amount": "High volatility",
+      "time": "1 day ago",
+      "timestamp": "2025-01-18T03:12:00Z",
+      "status": "acknowledged",
+      "severity": "medium"
+    },
+    {
+      "id": "activity_004",
+      "type": "buy",
+      "action": "Bought",
+      "asset": "BTC",
+      "amount": "$5,000",
+      "shares": 0.115,
+      "price": 43478,
+      "time": "2 days ago",
+      "timestamp": "2025-01-17T10:30:00Z",
+      "status": "completed"
+    }
+  ],
+
+  "notifications": [
+    {
+      "id": "notif_001",
+      "type": "opportunity",
+      "title": "New Investment Opportunity",
+      "message": "AI startup NeuralTech seeking Series A funding",
+      "time": "1 hour ago",
+      "timestamp": "2025-01-19T02:12:00Z",
+      "read": false,
+      "priority": "high",
+      "actionUrl": "/app/investments?id=startup_001"
+    },
+    {
+      "id": "notif_002",
+      "type": "alert",
+      "title": "Price Alert: AAPL",
+      "message": "Apple stock reached your target price of $185",
+      "time": "3 hours ago",
+      "timestamp": "2025-01-19T00:12:00Z",
+      "read": false,
+      "priority": "medium",
+      "actionUrl": "/app/market?ticker=AAPL"
+    },
+    {
+      "id": "notif_003",
+      "type": "security",
+      "title": "Login from New Device",
+      "message": "New login detected from iPhone 15 Pro",
+      "time": "5 hours ago",
+      "timestamp": "2025-01-18T22:12:00Z",
+      "read": true,
+      "priority": "high",
+      "actionUrl": "/app/security"
+    },
+    {
+      "id": "notif_004",
+      "type": "market",
+      "title": "Market Update",
+      "message": "Tech sector up 2.3% today",
+      "time": "8 hours ago",
+      "timestamp": "2025-01-18T19:12:00Z",
+      "read": true,
+      "priority": "low",
+      "actionUrl": "/app/market"
+    }
+  ],
+
+  "securityEvents": [
+    {
+      "id": "sec_001",
+      "type": "login",
+      "device": "iPhone 15 Pro",
+      "location": "San Francisco, CA",
+      "ip": "192.168.1.105",
+      "timestamp": "2025-01-18T22:12:00Z",
+      "status": "success",
+      "suspicious": false
+    },
+    {
+      "id": "sec_002",
+      "type": "login",
+      "device": "MacBook Pro",
+      "location": "San Francisco, CA",
+      "ip": "192.168.1.100",
+      "timestamp": "2025-01-18T08:30:00Z",
+      "status": "success",
+      "suspicious": false
+    },
+    {
+      "id": "sec_003",
+      "type": "failed_login",
+      "device": "Unknown",
+      "location": "Moscow, Russia",
+      "ip": "185.220.101.45",
+      "timestamp": "2025-01-17T15:22:00Z",
+      "status": "blocked",
+      "suspicious": true
+    }
+  ],
+
+  "experts": [
+    {
+      "id": "expert_001",
+      "name": "Dr. Jennifer Martinez",
+      "title": "Senior Investment Strategist",
+      "specialty": "Tech Stocks & AI",
+      "rating": 4.9,
+      "reviews": 127,
+      "experience": "15+ years",
+      "verified": true,
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jennifer",
+      "hourlyRate": 250,
+      "responseTime": "< 2 hours",
+      "languages": ["English", "Spanish"],
+      "certifications": ["CFA", "CFP"],
+      "bio": "Former Goldman Sachs analyst specializing in technology sector investments and AI-driven strategies."
+    },
+    {
+      "id": "expert_002",
+      "name": "Robert Chen",
+      "title": "Cryptocurrency Advisor",
+      "specialty": "Blockchain & Crypto",
+      "rating": 4.8,
+      "reviews": 93,
+      "experience": "8+ years",
+      "verified": true,
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Robert",
+      "hourlyRate": 200,
+      "responseTime": "< 4 hours",
+      "languages": ["English", "Mandarin"],
+      "certifications": ["CBCA", "Blockchain Expert"],
+      "bio": "Early Bitcoin adopter and blockchain consultant with deep expertise in crypto markets."
+    },
+    {
+      "id": "expert_003",
+      "name": "Sarah Thompson",
+      "title": "Real Estate Investment Consultant",
+      "specialty": "Real Estate & REITs",
+      "rating": 4.7,
+      "reviews": 156,
+      "experience": "20+ years",
+      "verified": true,
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",
+      "hourlyRate": 180,
+      "responseTime": "< 6 hours",
+      "languages": ["English"],
+      "certifications": ["CCIM", "Real Estate Broker"],
+      "bio": "Commercial real estate expert with extensive portfolio management experience."
+    }
+  ],
+
+  "aiInsights": [
+    {
+      "id": "insight_001",
+      "type": "recommendation",
+      "title": "Diversification Opportunity",
+      "message": "Your portfolio is heavily weighted in tech stocks (42%). Consider diversifying into bonds or commodities.",
+      "confidence": 85,
+      "priority": "medium",
+      "timestamp": "2025-01-19T03:00:00Z",
+      "actionable": true,
+      "suggestedActions": [
+        "Allocate 10% to government bonds",
+        "Consider gold ETF investment"
+      ]
+    },
+    {
+      "id": "insight_002",
+      "type": "risk",
+      "title": "Volatility Warning",
+      "message": "Tesla (TSLA) showing increased volatility. Consider setting stop-loss orders.",
+      "confidence": 78,
+      "priority": "high",
+      "timestamp": "2025-01-19T01:30:00Z",
+      "actionable": true,
+      "suggestedActions": [
+        "Set stop-loss at $230",
+        "Review position size"
+      ]
+    },
+    {
+      "id": "insight_003",
+      "type": "opportunity",
+      "title": "Tax Optimization",
+      "message": "You can harvest tax losses on TSLA to offset capital gains.",
+      "confidence": 92,
+      "priority": "medium",
+      "timestamp": "2025-01-18T15:00:00Z",
+      "actionable": true,
+      "suggestedActions": [
+        "Consult tax advisor",
+        "Review year-end tax strategy"
+      ]
+    }
+  ]
+}
