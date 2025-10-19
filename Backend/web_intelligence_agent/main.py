@@ -187,10 +187,11 @@ async def main():
     print(output_json)
     
     # Save the results to a file
-    with open('analysis_results.json', 'w') as f:
+    analysis_results_path = os.path.join(script_dir, 'analysis_results.json')
+    with open(analysis_results_path, 'w') as f:
         f.write(output_json)
         
-    print("\nResults saved to analysis_results.json")
+    print(f"\nResults saved to {analysis_results_path}")
 
 if __name__ == "__main__":
     asyncio.run(main())

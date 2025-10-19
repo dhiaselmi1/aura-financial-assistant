@@ -4,16 +4,27 @@ A modern, futuristic React web application for AI-powered financial management a
 
 ## 🚀 Features
 
+### Frontend
 - **Landing Page**: Modern hero section with glassmorphism design
 - **Dashboard**: Real-time portfolio overview with AI insights
 - **Market Analysis**: AI-powered market opportunities and risk assessment
 - **What-If Simulator**: Interactive investment scenario modeling
+- **Buy/Sell Investments**: Trade stocks, crypto, real estate, startups, and companies
 - **Expert Network**: Connect with verified financial mentors
 - **Security Center**: 2FA, intrusion detection, and blockchain verification
 - **Profile Management**: Manage assets and risk preferences
 
+### ✨ NEW: AI Intelligence Agents
+- **Web Intelligence Agent**: Scrapes financial websites and analyzes content with Gemini AI
+- **Scoring Agent**: Filters and scores results based on user profile
+- **Personalized News**: Get news tailored to your interests
+- **Investment Opportunities**: Discover opportunities matching your profile
+- **Threat Detection**: Identify risks and market threats
+- **Real-time Analysis**: 30-60 second analysis of multiple sources
+
 ## 🛠️ Tech Stack
 
+### Frontend
 - **React 18** - Modern UI library
 - **Vite** - Lightning-fast build tool
 - **TailwindCSS** - Utility-first CSS framework
@@ -21,13 +32,23 @@ A modern, futuristic React web application for AI-powered financial management a
 - **Recharts** - Data visualization
 - **Lucide React** - Beautiful icons
 - **React Router** - Client-side routing
+- **Axios** - HTTP client for API calls
+
+### Backend (NEW)
+- **Flask** - Python web framework
+- **Google Gemini AI** - Content analysis
+- **crawl4ai** - Web scraping
+- **BeautifulSoup4** - HTML parsing
+- **Flask-CORS** - Cross-origin resource sharing
 
 ## 📦 Installation
 
-```bash
-# Navigate to project directory
-cd aura-financial-assistant
+### Quick Start (Frontend + Backend)
 
+**See [QUICKSTART.md](QUICKSTART.md) for detailed setup instructions.**
+
+### Frontend Only
+```bash
 # Install dependencies
 npm install
 
@@ -36,9 +57,42 @@ npm run dev
 
 # Build for production
 npm run build
+```
 
-# Preview production build
-npm run preview
+### Backend Setup
+```bash
+# Navigate to Backend directory
+cd Backend
+
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+venv\Scripts\activate  # Windows
+source venv/bin/activate  # Linux/Mac
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Create .env file with your Gemini API key
+echo GEMINI_API_KEY=your_api_key_here > .env
+
+# Start Flask server
+python app.py
+```
+
+### Environment Variables
+
+**Frontend (.env)**
+```env
+VITE_API_URL=http://localhost:5000/api
+```
+
+**Backend (Backend/.env)**
+```env
+GEMINI_API_KEY=your_gemini_api_key
+FLASK_ENV=development
+FLASK_DEBUG=True
 ```
 
 ## 🎨 Design Features
@@ -217,6 +271,56 @@ npm run preview
 npm run lint
 ```
 
+## 🤖 Using the AI Intelligence Agents
+
+### Quick Usage
+
+1. **Start the Backend**
+   ```bash
+   cd Backend
+   start.bat  # Windows
+   ./start.sh  # Linux/Mac
+   ```
+
+2. **Start the Frontend**
+   ```bash
+   npm run dev
+   ```
+
+3. **Navigate to Dashboard**
+   - Open `http://localhost:5173/app`
+   - Scroll to the "AI Intelligence Agent" panel
+   - Click "Run Analysis"
+   - Wait 30-60 seconds
+   - View personalized results
+
+### In Your Code
+
+```javascript
+import { usePersonalizedContent } from '@/hooks/useIntelligence'
+
+function MyComponent() {
+  const { content, loading, fetchContent } = usePersonalizedContent(true)
+  
+  return (
+    <div>
+      <h2>News: {content.news.length}</h2>
+      <h2>Opportunities: {content.opportunities.length}</h2>
+      <h2>Threats: {content.threats.length}</h2>
+    </div>
+  )
+}
+```
+
+**See [INTEGRATION_EXAMPLES.md](INTEGRATION_EXAMPLES.md) for more examples.**
+
+## 📚 Documentation
+
+- **[QUICKSTART.md](QUICKSTART.md)** - Quick setup guide
+- **[INTEGRATION_EXAMPLES.md](INTEGRATION_EXAMPLES.md)** - Code examples
+- **[ARCHITECTURE.md](ARCHITECTURE.md)** - System architecture
+- **[Backend/README.md](Backend/README.md)** - Backend API documentation
+
 ## 🤝 Contributing
 
 This is a demo project. Feel free to fork and customize for your needs.
@@ -227,4 +331,4 @@ For questions or issues, please open an issue in the repository.
 
 ---
 
-Built with ❤️ using React, TailwindCSS, and modern web technologies.
+Built with ❤️ using React, TailwindCSS, Flask, and AI technologies.

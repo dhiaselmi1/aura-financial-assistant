@@ -42,6 +42,7 @@ import {
   ResponsiveContainer 
 } from 'recharts'
 import { formatCurrency, formatPercentage } from '@/lib/utils'
+import IntelligencePanel from '@/components/IntelligencePanel'
 
 const portfolioData = [
   { month: 'Jan', value: 45000 },
@@ -594,11 +595,20 @@ export default function Dashboard() {
         </motion.div>
       </div>
 
-      {/* Financial News & Updates */}
+      {/* AI Intelligence Panel - Web Intelligence & Scoring Agents */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.7 }}
+      >
+        <IntelligencePanel />
+      </motion.div>
+
+      {/* Financial News & Updates */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.8 }}
       >
         <Card>
           <CardHeader>

@@ -1,6 +1,27 @@
-beautifulsoup4
+# Flask API
+Flask==3.0.0
+flask-cors==4.0.0
+
+# Core dependencies
+asyncio
+json5
+
+# Web crawling
 crawl4ai
-protobuf
-pydantic
-playwright
+beautifulsoup4
+requests
+lxml
+
+# Google Gemini API
 google-generativeai
+
+# Data processing & utilities
+numpy
+pandas
+
+# Optional but recommended for markdown / HTML handling
+markdownify
+
+# For scoring and analysis (optional enhancements)
+scikit-learn
+
