@@ -1,0 +1,9 @@
+{
+    "activity": "investing in startups",
+    "avg_income": 1000000,
+    "interests": ["fintech", "AI", "real estate"],
+    "type": "want to invest (take risk)",
+    "financial_data": {
+        "owns": ["houses in Gabes", "land", "business"]
+    }
+}
